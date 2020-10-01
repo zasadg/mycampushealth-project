@@ -1,0 +1,59 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width {
+  width: 2rem;
+}
+
+.navbar {
+  font-weight: bolder;
+}
+
+.nav-item .nav-link, .ml-3, a .nav-link, .fa-bars, .dropdown-menu .dropdown-item {
+  color: #0088ce;
+}
+
+.nav-item .nav-link:hover, .dropdown-menu .dropdown-item:hover {
+  padding-left: 20px;
+  border-radius: 6px;
+  background-color: #0088ce;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.py-5 {
+  color: #ffffff;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+.header {
+  min-height: 500px;
+  z-index: -1;
+  /*/Dim the background /*/
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/SmilingStudent.e005ff72.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=/app.581aa3f0.css.map */
