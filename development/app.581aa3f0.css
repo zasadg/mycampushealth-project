@@ -25,7 +25,7 @@ html {
 }
 
 .nav-item .nav-link, .ml-3, a .nav-link, .fa-bars, .dropdown-menu .dropdown-item {
-  color: #0088ce;
+  color: black;
 }
 
 .nav-item .nav-link:hover, .dropdown-menu .dropdown-item:hover {
@@ -54,6 +54,14 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.number-3 {
+  background-color: #d6d6d6;
+}
+
+.body-0 {
+  background-color: #bebebe;
 }
 
 /*# sourceMappingURL=/app.581aa3f0.css.map */
