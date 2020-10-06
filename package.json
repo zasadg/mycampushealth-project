@@ -9,7 +9,7 @@
     "build": "parcel build public/*.html --out-dir dist --public-url ./",
     "clean": "rimraf ./development && rimraf -rf ./.cache"
   },
-  "author": "",
+  "author": "K",
   "license": "mycampushealthau",
   "devDependencies": {
     "@babel/core": "^7.11.6",
