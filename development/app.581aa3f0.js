@@ -195,34 +195,34 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 },{"./..\\images\\SmilingStudent.jpg":[["SmilingStudent.e005ff72.jpg","../src/images/SmilingStudent.jpg"],"../src/images/SmilingStudent.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/js/main.js":[function(require,module,exports) {
-// $(document).ready(function() {
-// // //     // executes when HTML-Document is loaded and DOM is ready
-// // //     /*
-// // //     ################
-// // //     Add navbar background color when scrolled
-// // //     */
-$(window).scroll(function () {
-  if ($(window).scrollTop() > 56) {
-    $(".navbar").addClass("bg-white");
-  } else {
-    $(".navbar").removeClass("bg-white");
-  }
-}); // //     // If Mobile, add background color when toggler is clicked
-// $(".navbar-toggler").click(function() {
-//   if (!$(".navbar-collapse").hasClass("show")) {
-//     $(".navbar").addClass("bg-white");
-//   } 
-//   else {
-//     if ($(window).scrollTop() < 56) {
-//       $(".navbar").removeClass("bg-white");
-//     } 
-// //     else {
-// //     }
-//   }
-// });
-// //     // document ready
-//   });
-
+// // $(document).ready(function() {
+// // // //     // executes when HTML-Document is loaded and DOM is ready
+// // // //     /*
+// // // //     ################
+// // // //     Add navbar background color when scrolled
+// // // //     */
+//     $(window).scroll(function() {
+//       if ($(window).scrollTop() > 56) {
+//         $(".navbar").addClass("bg-white");
+//       } else {
+//         $(".navbar").removeClass("bg-white");
+//       }
+//     });
+// // //     // If Mobile, add background color when toggler is clicked
+//     // $(".navbar-toggler").click(function() {
+//     //   if (!$(".navbar-collapse").hasClass("show")) {
+//     //     $(".navbar").addClass("bg-white");
+//     //   } 
+//     //   else {
+//     //     if ($(window).scrollTop() < 56) {
+//     //       $(".navbar").removeClass("bg-white");
+//     //     } 
+//     // //     else {
+//     // //     }
+//     //   }
+//     // });
+// // //     // document ready
+// //   });
 var navbar = document.querySelector('nav');
 var navbarCollapse = document.querySelector('navbar-collapse');
 var navbarToggler = document.getElementById('burger');
@@ -280,7 +280,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51575" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50634" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
