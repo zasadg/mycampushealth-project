@@ -1,21 +1,35 @@
 {
   "name": "mycampushealth",
   "version": "1.0.0",
-  "description": "",
+  "description": "mycampushealth-website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run clean && parcel public/index.html --out-dir development -p 3000",
     "build": "parcel build public/*.html --out-dir dist --public-url ./",
     "clean": "rimraf ./development && rimraf -rf ./.cache"
   },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "parcel"
+  ],
   "author": "K",
-  "license": "mycampushealthau",
+  "license": "MIT",
+  "bugs": {
+    "url": "#"
+  },
+  "homepage": "#",
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/plugin-transform-runtime": "^7.11.5",
-    "@babel/runtime-corejs2": "^7.11.2",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/runtime-corejs2": "^7.9.2",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.11"
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
