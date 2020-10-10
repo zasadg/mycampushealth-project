@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css">
     <link rel="stylesheet" href="../src/scss/app.scss">
-  
+    
     <title>mycampushealth-homepage</title>
 </head>
 <body>
@@ -83,25 +84,26 @@
 
 
 <!-- Video Slider start -->
-
+<div class="body">
+<div class="container">
 <div class="modal-video-area">
-    <div class="container">
+    <div class="container text-center">
     <h2>Video resources to improve your study health</h2>
 </div>
     
-    <div class="card-deck p-4">
-        <div class="card humanities">
+    <div class="card-deck ">
+
+        <div class="col-sm-6 col-md-6 col-lg-4 humanities pt-4" >
         <button type="button" class="video-btn v-link-img" data-toggle="modal" data-src="https://www.youtube.com/embed/nCrjevx3-Js" data-target="#vModal-1" ><img class="card-img-top" src='../src/images/stock4.jpeg' style="filter: brightness(80%);">
         <i class="fas fa-play-circle fa-4x" style="color: white;"></i>
         </button>
-        
            <div class="card-body">
            <h3 class="card-title">Video resources 1</h3>
            <p class="card-text">Hear from Faculty and Students about our Humanities Programs</p>
             </div>
         </div>
       
-        <div class="card stem">
+        <div class="col-sm-6 col-md-6 col-lg-4 stem col-12 pt-4">
         <button type="button" class="video-btn v-link-img" data-toggle="modal" data-src="https://www.youtube.com/embed/DxIDKZHW3-E" data-target="#vModal-3" ><img class="card-img-top" src='../src/images/stock5.jpeg'style="filter: brightness(80%);">
             <i class="fas fa-play-circle fa-4x" style="color: white;"></i>
         </button>
@@ -111,7 +113,7 @@
             </div>
         </div>
       
-        <div class="card social-sciences">
+        <div class="col-sm-6 col-md-6 col-lg-4 social-sciences pt-4">
         <button type="button" class="video-btn v-link-img" data-toggle="modal" data-src="https://www.youtube.com/embed/nCrjevx3-Js" data-target="#vModal-3" ><img class="card-img-top" src='../src/images/stock6.jpg'style="filter: brightness(80%);">
             <i class="fas fa-play-circle fa-4x" style="color: white;"></i>
         </button>
@@ -120,15 +122,45 @@
            <p class="card-text">Discover the possibilities of a MSMU Social Sciences degree</p>
             </div> 
         </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-4 social-new pt-4">
+            <button type="button" class="video-btn v-link-img" data-toggle="modal" data-src="https://www.youtube.com/embed/nCrjevx3-Js" data-target="#vModal-4" ><img class="card-img-top" src='../src/images/stock7.jpg'style="filter: brightness(80%);">
+                <i class="fas fa-play-circle fa-4x" style="color: white;"></i>
+            </button>
+               <div class="card-body">
+               <h3 class="card-title">Video resources 4</h3>
+               <p class="card-text">Discover the possibilities of a MSMU Social Sciences degree</p>
+                </div> 
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4 social-new pt-4">
+                <button type="button" class="video-btn v-link-img" data-toggle="modal" data-src="https://www.youtube.com/embed/nCrjevx3-Js" data-target="#vModal-5" ><img class="card-img-top" src='../src/images/stock5.jpeg'style="filter: brightness(80%);">
+                    <i class="fas fa-play-circle fa-4x" style="color: white;"></i>
+                </button>
+                   <div class="card-body">
+                   <h3 class="card-title">Video resources 4</h3>
+                   <p class="card-text">Discover the possibilities of a MSMU Social Sciences degree</p>
+                    </div> 
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-4 social-new pt-4">
+                    <button type="button" class="video-btn v-link-img" data-toggle="modal" data-src="https://www.youtube.com/embed/nCrjevx3-Js" data-target="#vModal-6" ><img class="card-img-top" src='../src/images/stock6.jpg'style="filter: brightness(80%);">
+                        <i class="fas fa-play-circle fa-4x" style="color: white;"></i>
+                    </button>
+                       <div class="card-body">
+                       <h3 class="card-title">Video resources 4</h3>
+                       <p class="card-text">Discover the possibilities of a MSMU Social Sciences degree</p>
+                        </div> 
+                    </div>
     </div>
     <!-- /card-deck -->
-    </div>
+  
     
     <!-- Video vModal-1 -->
     <div class="modal fade" id="vModal-1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-           <div class="modal-body">
+           <div class="modal-body ">
                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                    <span aria-hidden="true">&times;</span>
                 </button>        
@@ -174,8 +206,109 @@
        </div>
      </div>
     </div>
-<!-- Video Slider end -->
 
+    <!-- Video vModal-4 -->
+    <div class="modal fade" id="vModal-4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+             <div class="modal-body">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>        
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="" id="video-4" allowscriptaccess="always"></iframe>
+              </div>
+            </div>
+         </div>
+       </div>
+      </div>
+
+       <!-- Video vModal-5 -->
+    <div class="modal fade" id="vModal-5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+             <div class="modal-body">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>        
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="" id="video-5" allowscriptaccess="always"></iframe>
+              </div>
+            </div>
+         </div>
+       </div>
+      </div>
+
+       <!-- Video vModal-6 -->
+    <div class="modal fade" id="vModal-6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+             <div class="modal-body">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>        
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="" id="video-6" allowscriptaccess="always"></iframe>
+              </div>
+            </div>
+         </div>
+       </div>
+      </div>
+<!-- Video Slider end -->
+</div>
+
+<!-- Image slider start-->
+<div class=" text-center">
+    <h2>Student images resource</h2>
+      <div class="row">
+        <div class="col-md-12 heroSlider">
+          <div class="overlay">
+        </div>
+           <!-- Slider -->
+          <div class="slider responsive p-2">
+            <div>
+                          <img src="../src/images/Student1.png" alt="" />
+                      </div>
+                      <div>
+                          <img src="../src/images/Student2.png" alt="" />
+                      </div>
+                      <div>
+                          <img src="../src/images/Student3.png" alt="" />
+                      </div>
+                      <div>
+                          <img src="../src/images/Student1.png" alt="" />
+                      </div>
+                      <div>
+                          <img src="../src/images/Student2.png" alt="" />
+                      </div>
+                      <div>
+                          <img src="../src/images/Student3.png" alt="" />
+                      </div>
+                      <div>
+                          <img src="../src/images/Student1.png" alt="" />
+                      </div>
+                      <div>
+                          <img src="../src/images/Student2.png" alt="" />
+                      </div>
+                      <div>
+                        <img src="../src/images/Student3.png" alt="" />
+                    </div>
+          </div>
+                      
+        </div>
+      </div>
+    </div>
+
+<!-- Break line -->
+
+<div class="container" style="height: 150px;"></div>
+<div class="line p-2">
+    <img src="../src/images/footer-grayscale.png" alt="" style="width: 100% ;">
+</div>
+<!-- Image slider end -->
     <!-- Footer start -->
     <footer class="p-4">
         <div class="container">
@@ -268,6 +401,7 @@
     </footer>
     <!-- Footer end -->
 
+
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -278,6 +412,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
     <script src="https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.js"></script>
     <script src="../src/js/main.js"></script>
 </body>

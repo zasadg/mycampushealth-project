@@ -3,10 +3,56 @@
   min-height:200px;
   z-index: -1;
   /*/Dim the background /*/
-  background: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/header-1.jpg);
+  background: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/Header-1-grayscale.png);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.slider img {
+  width: 100%;
+  height: auto;
+	padding: 5px;
+}
+
+.slick-dots {
+	text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+  li {
+    display:inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    &.slick-active {
+      button {
+        background-color:black;
+      }
+    }
+    button {
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color:#999;
+      border:none;
+      width: 15px;
+      height: 15px;
+      border-radius:50%;
+    }
+		:hover{
+			background-color: black;
+		}
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .next {
+        display: none !important;
+    }
+}
+
+
 
 
 /*--------- MODAL VIDEO AREA STYLES ---------*/
@@ -28,7 +74,7 @@
     padding:0px;
 
   }
-      
+  
   .close {
     position:absolute;
     right:-30px;
