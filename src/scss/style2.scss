@@ -1,0 +1,136 @@
+
+.header-resources{
+  min-height:200px;
+  z-index: -1;
+  /*/Dim the background /*/
+  background: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/Header-1-grayscale.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+	padding: 5px;
+}
+
+.slick-dots {
+	text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+  li {
+    display:inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    &.slick-active {
+      button {
+        background-color:black;
+      }
+    }
+    button {
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color:#999;
+      border:none;
+      width: 15px;
+      height: 15px;
+      border-radius:50%;
+    }
+		:hover{
+			background-color: black;
+		}
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .next {
+        display: none !important;
+    }
+}
+
+
+
+
+/*--------- MODAL VIDEO AREA STYLES ---------*/
+.modal-video-area{
+    margin: 3rem 0;
+  }
+  
+  .modal{
+      z-index: 999999;
+  }
+  
+  .modal-dialog {
+    max-width: 800px;
+    margin: 80px auto;
+  }
+  
+  .modal-body {
+    position:relative;
+    padding:0px;
+
+  }
+  
+  .close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+       transition: 0.2s ease; 
+  }
+  
+  .close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+      color: #fff;
+      text-decoration: none;
+      opacity: .75;
+  }
+  
+  button.close {
+      padding: 0px 4px 5px 4px;
+      background-color: #0088ce;
+        transition: 0.2s ease;
+  }
+  
+  .v-link-img{
+       border: 0;
+    padding: 0;
+       cursor: pointer;
+       transition: 0.4s ease;
+
+  }
+  
+  .v-link-img:hover{
+      
+       opacity: 0.6;
+       cursor: pointer;
+       outline-style: none;
+  }
+  
+  .v-link-img:focus{
+       outline-style: none;
+  }
+  
+  .modal-backdrop.show {
+      opacity: 0.7;
+      z-index: 99999;
+  }
+
+.video-btn{
+    position: relative;
+}
+.video-btn img{
+    display: block;
+}
+.video-btn .fa-play-circle{
+    position:absolute;
+    bottom:40%;
+    left:35%;
+}

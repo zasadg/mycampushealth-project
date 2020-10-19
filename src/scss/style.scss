@@ -37,14 +37,14 @@ html{
   height:20px;
   background-size: cover;
 }
-  .header  {
+.header  {
     min-height: 500px;
     z-index: -1;
     
     /*/Dim the background /*/
-    background:linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/SmilingStudent.jpg);
+    background:linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/SmilingStudent-small.jpg);
     background-attachment: fixed;
-    background-position: center;
+   
     background-repeat: no-repeat;
   }
   
@@ -55,3 +55,143 @@ html{
    background-color: rgb(190, 190, 190);
  }
 
+<<<<<<< HEAD
+=======
+ main {
+  background: #17232A;
+  padding: 64px 0 32px 0;
+  color: #fefefe;
+
+  .second {
+      margin-top: 50px;
+  }
+
+  h5 {
+      position: relative;
+      font-weight: 500;
+      width: 100%;
+      text-transform: uppercase;
+      ;
+
+      &:after {
+          content: '';
+          position: absolute;
+          height: 1px;
+          bottom: -8px;
+          left: 0;
+          background: #fff;
+      }
+  }
+
+  ul {
+      padding-top: 12px;
+  }
+
+  .contact {
+      &:after {
+          width: 100px;
+      }
+  }
+
+  .about {
+      &:after {
+          width: 60px;
+      }
+  }
+
+  .features {
+      &:after {
+          width: 115px;
+      }
+  }
+
+  .comparison {
+      &:after {
+          width: 170px;
+      }
+  }
+
+  .help {
+      &:after {
+          width: 140px;
+      }
+  }
+
+  .affiliate {
+      &:after {
+          width: 150px;
+      }
+  }
+
+  .artical {
+      &:after {
+          width: 110px;
+      }
+  }
+
+.container {
+      .row {
+          &:nth-child(2) {
+              i {
+                  color: #111;
+                  font-size: 16px;
+                  padding: 8px;
+                  border-radius: 50%;
+                  background-color: #fff;
+
+                  &:after {
+                      content: '';
+                      position: absolute;
+                      bottom: -8px;
+                      left: 20px;
+                      height: 1px;
+                      width: 20px;
+                      background: #fff;
+                  }
+
+                  &:nth-child(2) {
+                      &:after {
+                          left: 55px;
+                      }
+                  }
+              }
+          }
+
+          &:nth-child(3) {
+              padding: 28px 0;
+
+              h3 {
+                  font-weight: 800;
+              }
+
+              .list-inline-item {
+                  &:after {
+                      content: '';
+                      position: absolute;
+                      margin-left: 4px;
+                      margin-top: 6px;
+                      height: 16px;
+                      width: 2px;
+                      background: #fff;
+                  }
+
+                  &:nth-last-child(1) {
+                      &:after {
+                          content: '';
+                          background: none;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+// media query
+@media only screen and (max-width: 650px) {
+
+  .first,
+  .second {
+      margin-top: 24px !important;
+  }
+}
+>>>>>>> e02a931405f0c2821bf9b7a1a06130f87ba98c1a
