@@ -14,7 +14,9 @@ html{
   text-decoration: none!important;
 }
 /* Font Awesome Icons have variable width. Added fixed width to fix that.*/
-.icon-width { width: 2rem;}
+.icon-width { 
+    width: 2rem;
+}
 .navbar{
   font-weight: bolder;
  
@@ -37,14 +39,14 @@ html{
   height:20px;
   background-size: cover;
 }
-.header  {
+  .header  {
     min-height: 500px;
     z-index: -1;
     
     /*/Dim the background /*/
-    background:linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/SmilingStudent-small.jpg);
+    background:linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/SmilingStudent.jpg);
     background-attachment: fixed;
-   
+    background-position: center;
     background-repeat: no-repeat;
   }
   
@@ -55,8 +57,6 @@ html{
    background-color: rgb(190, 190, 190);
  }
 
-<<<<<<< HEAD
-=======
  main {
   background: #17232A;
   padding: 64px 0 32px 0;
@@ -186,6 +186,7 @@ html{
       }
   }
 }
+
 // media query
 @media only screen and (max-width: 650px) {
 
@@ -194,4 +195,3 @@ html{
       margin-top: 24px !important;
   }
 }
->>>>>>> e02a931405f0c2821bf9b7a1a06130f87ba98c1a

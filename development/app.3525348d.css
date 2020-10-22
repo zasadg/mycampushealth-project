@@ -50,8 +50,9 @@ html {
   min-height: 500px;
   z-index: -1;
   /*/Dim the background /*/
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/SmilingStudent-small.244b5340.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/SmilingStudent.e005ff72.jpg);
   background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
