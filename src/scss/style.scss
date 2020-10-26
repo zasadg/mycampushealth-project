@@ -19,10 +19,23 @@ html{
 }
 .navbar{
   font-weight: bolder;
- 
+  z-index: 1000;
+  
+}
+#shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    z-index: 999;
+    -webkit-box-shadow: 0 3px 2px -2px rgba(0,0,0,.4);
+    -moz-box-shadow: 0 3px 2px -2px rgba(0,0,0,.4);
+    box-shadow: 0 3px 2px -2px rgba(0,0,0,.4);
+    display: none;
 }
 .nav-item .nav-link, .ml-3, a .nav-link, .fa-bars, .dropdown-menu .dropdown-item{
-  color:black;
+   color:black
 }
 .nav-item .nav-link:hover, .dropdown-menu .dropdown-item:hover{
   padding-left: 20px;
@@ -44,17 +57,24 @@ html{
     z-index: -1;
     
     /*/Dim the background /*/
-    background:linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/SmilingStudent.jpg);
+    background:linear-gradient(to top, rgba(141, 37, 37, 0.3),rgba(0,0,0,0.3)),url(../images/SmilingStudent-small.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
   }
-  
+ .footer-content{
+     font-size: 18px;
+     font-weight: 500;;
+ } 
+ .dummy-image{
+     height:400px;
+     background-color:rgb(214, 214, 214) ;
+ }
 .number-3{
-   background-color: rgb(214, 214, 214);
+//    background-color: rgb(214, 214, 214);
  } 
  .body-0{
-   background-color: rgb(190, 190, 190);
+//    background-color: rgb(190, 190, 190);
  }
 
  main {

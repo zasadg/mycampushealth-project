@@ -1,6 +1,7 @@
 import './style';
 import './style2';
 import './style3';
+import './style4';
 
 $('.responsive').slick({
   dots: true,
