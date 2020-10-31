@@ -23,15 +23,14 @@ $COLOR: (
 
 
 // styles
-.card {
+.card-new {
 	background: #fff
 	top -10% center no-repeat;
-	
 	background-size: contain;
+	border: 1px solid rgb(207, 207, 207);
 	border-radius: 10px;
-	box-shadow: 0 10px 30px -5px rgba(color(dark), 0.2);
 	text-align: center;
-	padding: 30px 60px;
+
 	img {
 		background-color: color(grey);
 		height: 120px;
@@ -87,6 +86,6 @@ $COLOR: (
 .transaction_activity_image_dots .transaction_activity_image_dots1 {background: #31d317;}
 
 .transaction_activity_text {float: left; width: 50%; padding-left: 20px; position: relative; z-index: 1;}
-.transaction_activity_text_click {position: absolute; width:94%; background:#099ded; height:58px; transition: all 0.4s; top:0; z-index: -1; border-radius: 10px;}
+.transaction_activity_text_click {position: absolute; width:94%; background:#099ded; height:40px; transition: all 0.4s; top:0; z-index: -1; border-radius: 10px;}
 .transaction_activity_text div {padding: 2px 20px; color: #2c3f5733; font-weight: 700; transition: all 0.4s; cursor:pointer;}
 .transaction_activity_text .transaction_activity_text1 {color: #fff;}
