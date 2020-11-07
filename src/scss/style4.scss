@@ -89,3 +89,14 @@ $COLOR: (
 .transaction_activity_text_click {position: absolute; width:94%; background:#099ded; height:40px; transition: all 0.4s; top:0; z-index: -1; border-radius: 10px;}
 .transaction_activity_text div {padding: 2px 20px; color: #2c3f5733; font-weight: 700; transition: all 0.4s; cursor:pointer;}
 .transaction_activity_text .transaction_activity_text1 {color: #fff;}
+
+select {
+	width: 200px;
+	height: 30px;
+	-webkit-appearance: none;  /*Removes default chrome and safari style*/
+	-moz-appearance: none;  /*Removes default style Firefox*/
+	appearance: none;
+	background: #fff url('http://placehold.it/30x30') center right no-repeat; 
+  }
+  /* magic IE fix/hack */
+  select::-ms-expand { display: none; }

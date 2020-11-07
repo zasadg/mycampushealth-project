@@ -17,7 +17,7 @@
  <nav class="navbar navbar-expand-lg fixed-top ">
     <div class="container"> <a class="navbar-brand d-flex align-items-center" href="index.html">
             <img src="../src/images/My campus Health V3-01.svg" style="width: 100%;" alt="logo">
-            <span class="ml-3 font-weight-bold">MyCampusHealth</span>
+            <span class="ml-3 font-weight-bold"></span>
         </a>
         <button id="burger" class="navbar-toggler navbar-toggler-right border-0 " type="button"
             data-toggle="collapse" data-target="#navbar4">
@@ -75,22 +75,20 @@
  
 <div id="shadow"></div>
     <!--Header start-->
-    <div class="header">
+    <div class="header-resources">
         <div class="container py-5">
             <div class="row py-5">
-                <div class="col-lg-10">
-                    <h1 class="display-4 mb-4 font-weight-bold pt-5">Its what we do best </h1>
-                    <p class="lead mb-5 font-weight-bold">Innovative Cloud Based Software Solutions </p> <a href="#"
-                        class="btn btn-lg btn-outline-light mx-1 ">Try our service</a>
+                <div class="col-12">
+                    <h1 class="font-weight-bold pt-5" >Contact MyCampusHealth to get advices and help from our expert services</h1>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolor inventore ad alias doloremque distinctio accusantium dolores deleniti.</p>
+                 
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    </div>
-    </div>
+    </div>  
 
-
+ <div class="filler" style="height:50px"></div>
 
 
 
@@ -104,11 +102,9 @@
   
         <div class="col-lg-8 col-lg-offset-2">
   
-          <h1>Contact form Tutorial from <a href="https://bootstrapious.com">Bootstrapious.com</a></h1>
-  
-          <p class="lead">This is a demo for our tutorial dedicated to crafting working <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form">Bootstrap contact form with PHP and AJAX</a>. </p>
-          <p>This pen shows how to make a basic Bootstrap and HTML contact form, activate a validator and send it via AJAX. It also displays a custom Bootstrap alert after submitting the form.</p>
-          <p>PHP files are not included in this Pen, just visit the tutorial page to download them.</p>
+          <h1>Request a demonstration of our software services</h1>
+            <p class="pb-4" style="font-size: 18px;">Simply contact us via the form below with your inquiry</p>
+          
   
           <form id="contact-form" method="post" action="contact.php" role="form">
   
@@ -119,15 +115,15 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="form_name">Firstname *</label>
-                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                  <label for="form_name"><b>Firstname *</b></label>
+                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required." style="border: 1px solid #0088ce">
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="form_lastname">Lastname *</label>
-                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                  <label for="form_lastname"><b>Lastname *</b></label>
+                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required." style="border: 1px solid #0088ce">
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
@@ -135,34 +131,46 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="form_email">Email *</label>
-                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                  <label for="form_email"><b>Email *</b></label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required." style="border: 1px solid #0088ce">
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="form_phone">Phone</label>
-                  <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                  <label for="form_phone"><b>Phone</b></label>
+                  <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone" style="border: 1px solid #0088ce">
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
             </div>
             <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_selection" class="pt-1"><b> Please select the number of students  *</b></label>
+                            <select class="col-md-12" style="border: 1px solid #0088ce " placeholder="form selection*" rows="4" required="required" data-error="Please, select your number of students.">
+                                <option value="-1">1 to 100</option>
+                                <option value="1">100 to 500</option>
+                                <option value="2">500 to 1000</option>
+                                <option value="3">1000 to 5000</option>
+                                <option value="4">more than 5000</option>
+                              </select>
+                          </div>
+                  </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <label for="form_message">Message *</label>
-                  <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                  <label for="form_message"><b> Please tell us what you need *</b></label>
+                  <textarea id="form_message" name="message" class="form-control" placeholder="Message us*" rows="4" required="required" data-error="Please,leave us a message." style="border: 1px solid #0088ce"></textarea>
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
               <div class="col-md-12">
-                <input type="submit" class="btn btn-success btn-send" value="Send message">
+                <input type="submit" class="btn btn-success btn-send" style="background-color:#0088ce" value="Send message">
               </div>
             </div>
             <div class="row">
               <div class="col-md-12">
-                <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="https://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
+               </p>
               </div>
             </div>
           </div>
