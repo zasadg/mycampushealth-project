@@ -23,14 +23,3 @@ navbarToggler.onclick= function(){
   }
 }
 
-// $(document).ready(function(){
-//   $(window).scroll(function(){
-//    var y = $(window).scrollTop();
-//    if( y > 0 ){
-//        $("#shadow").css({'display':'block', 'opacity':y/20});;
-
-//    } else {
-//        $("#shadow").css({'display':'none', 'opacity':y/20});
-//    }
-//   });
-//  })
