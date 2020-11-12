@@ -289,11 +289,10 @@ html{
     border-right: 10px solid #fff;
     border-left: 10px solid #fff;
     transition: all 0.35s;
-    z-index: 1;
     top: -0.0625rem;
   }
   .tab-switch:checked + label + .tab-content {
-    z-index: 9999;
+    z-index: 1;
     opacity: 1;
  
   }
