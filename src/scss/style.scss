@@ -79,13 +79,6 @@ html{
     background-repeat: no-repeat;
     background-size: 70%;
 }
-.number-3{
-//    background-color: rgb(214, 214, 214);
- } 
- .body-0{
-//    background-color: rgb(190, 190, 190);
- }
-
  main {
   background: #17232A;
   padding: 64px 0 32px 0;
@@ -288,7 +281,6 @@ html{
     border-right: 10px solid #fff;
     border-left: 10px solid #fff;
     transition: all 0.35s;
-    z-index: 1;
     top: -0.0625rem;
   }
   .tab-switch:checked + label + .tab-content {
@@ -303,3 +295,4 @@ html{
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%0088ce' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
