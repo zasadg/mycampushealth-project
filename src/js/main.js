@@ -1,8 +1,9 @@
+import './style';
 import './style5';
 import './style4';
-import './style';
 import './style2';
 import './style3';
+
 $(function() {
     // init the validator
     // validator files are included in the download package
