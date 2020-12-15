@@ -1,8 +1,11 @@
+
+
 import './style';
+// import './style3';
+
+import './style2';
 import './style5';
 import './style4';
-import './style2';
-import './style3';
 
 $(function() {
     // init the validator

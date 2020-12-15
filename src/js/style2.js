@@ -30,7 +30,7 @@ $(document).ready(function() {
     $('#vModal-3').on('hide.bs.modal', function (e) {
         $("#video-3").attr('src',$videoSrc); 
     }) 
-
+  
     $('#vModal-4').on('shown.bs.modal', function (e) {
         $("#video-4").attr('src',$videoSrc + "?rel=0&showinfo=0&modestbranding=1&autoplay=1" ); 
         })
@@ -46,7 +46,7 @@ $(document).ready(function() {
         $('#vModal-5').on('hide.bs.modal', function (e) {
             $("#video-5").attr('src',$videoSrc); 
         }) 
-
+  
     $('#vModal-6').on('shown.bs.modal', function (e) {
         $("#video-6").attr('src',$videoSrc + "?rel=0&showinfo=0&modestbranding=1&autoplay=1" ); 
         })
@@ -57,4 +57,3 @@ $(document).ready(function() {
   });
   
     
-  
