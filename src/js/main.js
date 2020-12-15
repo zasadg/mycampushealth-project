@@ -1,8 +1,6 @@
 
 
 import './style';
-// import './style3';
-
 import './style2';
 import './style5';
 import './style4';
