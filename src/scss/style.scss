@@ -431,12 +431,13 @@ html{
 
 
 /* colors */
-$blue: #428BFF;
+$blue: #00537c;
 $red: #FF4A53;
-$dark: #333;
+$dark: rgb(255, 255, 255);
+$white: #ffff;
 
 $accent: $blue;
-$accent-inactive: desaturate($accent, 85%);
+$accent-inactive: desaturate($accent, 60%);
 $secondary: $accent-inactive;
 
 
@@ -489,7 +490,7 @@ $content-selector: "~ .content > section";
   padding: 50px;
   padding-bottom: 80px;
   width: 70%;
-  height: 250px;
+  height: 300px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
   min-width: #{$tab-count * 60px};
@@ -570,7 +571,7 @@ $content-selector: "~ .content > section";
       max-width: 100%;
       margin: 0 auto;
       height: $indicator-height;
-      background: $accent;
+      background: $white;
       border-radius: 1px;     
     }
 
@@ -591,7 +592,7 @@ $content-selector: "~ .content > section";
       line-height: 1.4;
       
       h2 {
-        color: $accent;
+        color: $white;
         display: none;
         &::after {
           content: "";
@@ -599,7 +600,7 @@ $content-selector: "~ .content > section";
           display: block;
           width: 30px;
           height: 3px;
-          background: $accent;
+          background: $white;
           margin-top: 5px;
           left: 1px;
         }
@@ -611,10 +612,10 @@ $content-selector: "~ .content > section";
     @include tabs {
       > label {
         cursor: default;
-        color: $accent;
+        color: $white;
         
         svg {
-          fill: $accent;
+          fill: $white;
         }
         
         @media (max-width: map-get($breakpoints, small)) {
