@@ -219,6 +219,7 @@ html{
 }
 
 .wrapper {
+ 
     max-width: 50rem;
     width: 100%;
     margin: 0 auto;
@@ -226,7 +227,7 @@ html{
   .tabs {
     position: relative;
     margin: 3rem 0;
-    background: #0088ce;
+
     height: 14.75rem;
   }
   .tabs::before,
@@ -244,17 +245,19 @@ html{
     display: none;
   }
   .tab-label {
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
     position: relative;
     display: block;
     line-height: 2.75em;
     height: 3em;
-    padding: 0 1.618em;
+    padding: 0 1.218em;
     background: #0088ce;
-    // border-right: 0.125rem solid #0088ce;
+    margin-left: 30px;
     color: #fff;
     cursor: pointer;
     top: 0;
-    transition: all 0.25s;
+    transition: all 0.45s;
   }
   .tab-label:hover {
     top: -0.25rem;
@@ -267,16 +270,15 @@ html{
     top: 2.75em;
     left: 0;
     padding: 1.3rem;
-    background: #ffff;
-    color: #2c3e50;
-    border-bottom: 0.15rem solid #0088ce;
+    color: white;
+
 
     opacity: 0;
 
   }
   .tab-switch:checked + .tab-label {
     background:#ffff;
-    color: #2c3e50;
+    color:#0088ce;
     border-bottom: 0;
     border-right: 10px solid #fff;
     border-left: 10px solid #fff;
@@ -490,9 +492,7 @@ $content-selector: "~ .content > section";
   padding: 50px;
   padding-bottom: 80px;
   width: 70%;
-  height: 300px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08);
-  border-radius: 5px;
+ 
   min-width: #{$tab-count * 60px};
   input[name="tab-control"] {
     display: none;
