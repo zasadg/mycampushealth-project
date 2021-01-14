@@ -8,6 +8,8 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="../src/scss/app.scss">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="form.js"></script>
     <title>Contact Us</title>
 </head>
 
@@ -77,8 +79,8 @@
         <div class="container py-5">
             <div class="row py-5">
                 <div class="col-12">
-                    <h1 class="font-weight-bold pt-5" >
-                        Liên hệ với MyCampusHealth để nhận được lời khuyên và trợ giúp từ các chuyên gia của chúng tôi</h1>
+                    <h1 class="font-weight-bold pt-5" style="line-height: 4rem;">
+                        Liên hệ với MyCampusHealth <br> <h3 class="display-3"> Nhận được lời khuyên và trợ giúp từ các chuyên gia của chúng tôi</h3></h1>
                  
                  
                 </div>
@@ -94,7 +96,7 @@
 
 <!-- Contact form start-->
 
-
+<!-- 
     <div class="container">
   
       <div class="row">
@@ -180,8 +182,50 @@
   
       </div>
   
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h2>Liên hệ với chúng tôi</h2> 
+                <p> Hãy tâm sự với chúng tôi những khó khăn của bạn </p>
+                <form role="form" method="post" id="reused_form">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="name"> Tên:</label>
+                            <input type="text" placeholder="Tên của bạn" class="form-control" id="firstname" name="firstname" maxlength="50">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="name"> Họ:</label>
+                            <input type="text" placeholder="Tên họ của bạn" class="form-control" id="lastname" name="lastname" maxlength="50">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="email"> Email:</label>
+                            <input type="text" placeholder="Email của bạn" class="form-control" id="email" name="email" maxlength="50">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="email"> Số điện thoại:</label>
+                            <input type="tel" class="form-control" placeholder="Số điện thoại của bạn" id="phone" name="phone" required maxlength="50">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="name"> Tin nhắn:</label>
+                            <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Bạn có những tâm tư gì, hãy cho chúng tôi biết" maxlength="6000" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs" style="background-color: #0088ce;">Gửi đi! </button>
+                        </div>
+                    </div>
+                </form>
+                <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Tin nhắn của bạn đã được gửi đi!</h3> </div>
+                <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Có lỗi xảy ra trong quá trỉnh gửi . </div>
+            </div>
+        </div>
     </div>
-
 
 <!-- Contact form end -->
 
